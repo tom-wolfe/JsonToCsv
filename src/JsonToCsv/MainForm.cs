@@ -33,8 +33,6 @@ namespace JsonToCsv
             var fileName = sfdExport.FileName;
 
             CsvExporter.ExportCsv(fileName, flattened, selectedColumns);
-
-            System.Diagnostics.Process.Start(fileName);
         }
     }
 }

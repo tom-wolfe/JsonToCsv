@@ -54,6 +54,7 @@
             this.txtJson.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtJson.ForeColor = System.Drawing.Color.Gainsboro;
             this.txtJson.Location = new System.Drawing.Point(12, 41);
+            this.txtJson.MaxLength = 0;
             this.txtJson.Multiline = true;
             this.txtJson.Name = "txtJson";
             this.txtJson.ScrollBars = System.Windows.Forms.ScrollBars.Both;
